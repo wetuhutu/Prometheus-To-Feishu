@@ -1,5 +1,3 @@
-# Prometheus-To-Feishu
-
 # Prometheus + Alertmanager 飞书告警中转方案
 > Alertmanager 原生不支持飞书机器人，用 Flask 做简易 webhook 中转，把告警转成飞书卡片消息。
 
