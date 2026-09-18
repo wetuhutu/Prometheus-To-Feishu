@@ -5,10 +5,8 @@
 `Prometheus → Alertmanager → Flask中转服务 → 飞书机器人webhook`
 Alertmanager 推送告警到 Flask，Flask 组装飞书卡片 JSON，调用飞书机器人接口发消息。支持告警恢复通知。
 
-## 依赖
-```bash
-pip install flask requests
-```
+## 效果展示
+![网卡了](./屏幕截图%202026-09-18%20175732.png)
 
 ## alertmanager.yml（重点）
 ```yaml
